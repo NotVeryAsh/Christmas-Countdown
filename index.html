@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Christmas Countdown</title>
+        <script src="js/moment.min.js"></script>
+        <script src="js/countdown.min.js"></script>
+        <script src="js/moment-countdown.min.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body class="m-10 bg-emerald-900">
+      <div class="progress progress-striped active rounded-full mb-5">
+          <div id="progress" class="flex progress-bar bg-red-400 rounded-full justify-end relative">
+              &nbsp
+              <img src="images/santa.png" alt="Santa's sleigh being pulled by reindeer" class="absolute -top-12 -right-32 h-20">
+          </div>
+      </div>
+      <div id="content" class="flex flex-col items-center mx-auto rounded-xl bg-emerald-400 py-5 space-y-5">
+        <h1 class="text-7xl text-bold">
+            Christmas Countdown
+        </h1>
+          <div id="timer" class="flex flex-row p-5 space-x-10">
+            <div class="flex flex-col bg-red-500 rounded-xl p-3">
+                <div class="p-5 bg-white rounded-md text-5xl text-center" id="months">
+                    0
+                </div>
+                <h3 class="text-white text-center text-5xl p-5">
+                    Months
+                </h3>
+            </div>
+              <div class="flex flex-col bg-red-500 rounded-xl p-3">
+                  <div class="p-5 bg-white rounded-md text-5xl text-center" id="days">
+                      0
+                  </div>
+                  <h3 class="text-white text-center text-5xl p-5">
+                      Days
+                  </h3>
+              </div>
+              <div class="flex flex-col bg-red-500 rounded-xl p-3">
+                  <div class="p-5 bg-white rounded-md text-5xl text-center" id="hours">
+                      0
+                  </div>
+                  <h3 class="text-white text-center text-5xl p-5">
+                      Hours
+                  </h3>
+              </div>
+              <div class="flex flex-col bg-red-500 rounded-xl p-3">
+                  <div class="p-5 bg-white rounded-md text-5xl text-center" id="minutes">
+                      0
+                  </div>
+                  <h3 class="text-white text-center text-5xl p-5">
+                      Minutes
+                  </h3>
+              </div>
+              <div class="flex flex-col bg-red-500 rounded-xl p-3">
+                  <div class="p-5 bg-white rounded-md text-5xl text-center" id="seconds">
+                      0
+                  </div>
+                  <h3 class="text-white text-center text-5xl p-5">
+                      Seconds
+                  </h3>
+              </div>
+          </div>
+      </div>
+      <script src="js/snowstorm.min.js"></script>
+      <script src="js/app.min.js"></script>
+    </body>
+</html>
