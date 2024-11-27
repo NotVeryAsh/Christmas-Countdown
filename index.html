@@ -21,18 +21,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/app.css">
     </head>
-    <body class="m-10 bg-emerald-900">
-      <div class="progress progress-striped active rounded-full mb-5">
+    <body class="flex flex-col my-10 bg-emerald-900 items-center">
+      <div class="progress progress-striped active rounded-full mb-5 w-full">
           <div id="progress" class="flex progress-bar bg-red-400 rounded-full justify-end relative">
               &nbsp
               <img src="images/santa.png" alt="Santa's sleigh being pulled by reindeer" class="absolute -top-12 -right-32 h-20">
           </div>
       </div>
-      <div id="content" class="flex flex-col items-center mx-auto rounded-xl bg-emerald-400 py-5 space-y-5">
-        <h1 class="text-7xl text-bold">
+      <div id="content" class="flex flex-col items-center m-auto rounded-xl bg-emerald-400 py-5 space-y-5">
+        <h1 class="text-7xl text-bold text-center">
             Christmas Countdown
         </h1>
-          <div id="timer" class="flex flex-row p-5 space-x-10">
+          <div id="timer" class="flex flex-col md:flex-row p-5 space-x-1 lg:space-x-10 space-y-3 md:space-y-0">
             <div class="flex flex-col bg-red-500 rounded-xl p-3">
                 <div class="p-5 bg-white rounded-md text-5xl text-center" id="months">
                     0
